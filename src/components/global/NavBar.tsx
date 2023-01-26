@@ -1,3 +1,4 @@
+import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -5,6 +6,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { useLocation } from "react-router-dom";
 
 export default function NavBar() {
+	const handleCopy = () => {
+		navigator.clipboard.writeText("play.trix.tk");
+		const button = document.getElementById("copy-ip") as HTMLElement;
+		button.innerHTML = "Copied!";
+		setTimeout(() => {
+			button.innerHTML = "play.trix.tk";
+		}, 2000);
+	};
 	const currentLocation = useLocation().pathname;
 	return (
 		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -38,13 +47,25 @@ export default function NavBar() {
 								Derpitcraft
 							</NavDropdown.Item>
 						</NavDropdown>
-					</Nav>
-					{/* <Nav>
-						<Nav.Link href="#deets">More deets</Nav.Link>
-						<Nav.Link eventKey={2} href="#memes">
-							Dank memes
+						<Nav.Link href="https://trix.tk/docs" target="_blank">
+							Documentation{"  "}
+							<img
+								src="/img/external-link.png"
+								alt="external-link"
+								style={{ height: "1em" }}
+							/>
 						</Nav.Link>
-					</Nav> */}
+					</Nav>
+					<Nav>
+						<Button
+							id="copy-ip"
+							variant="outline-success"
+							onClick={handleCopy}
+							className="ip-button"
+						>
+							play.trix.tk
+						</Button>
+					</Nav>
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>
