@@ -26,10 +26,14 @@ export default function Footer() {
 					</Col>
 					<Col md={4}>
 						<iframe
-							title="Discord"
-							src="https://discord.com/widget?id=742006773149597717&theme=dark"
+							src="https://canary.discord.com/widget?id=297301054930944011&theme=dark"
+							width="350"
+							height="500"
+							allowTransparency={true}
+							frameBorder={0}
 							sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-						/>
+							title="Discord"
+						></iframe>
 					</Col>
 				</Row>
 			</Container>
