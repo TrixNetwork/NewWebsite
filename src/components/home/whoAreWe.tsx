@@ -13,25 +13,26 @@ export default function WhoAreWe() {
 				<div className="col-md-6">
 					<h1 className="display-5 fw-bold lh-1 mb-3">Who Are We?</h1>
 					<p>
-						Lorem ipsum dolor sit amet,{" "}
-						<strong>consectetur adipiscing elit</strong>. Aliquam
-						eget sapien sapien. Curabitur in metus urna. In hac
-						habitasse platea dictumst. Phasellus eu sem sapien, sed
-						vestibulum velit. Nam purus nibh, lacinia non faucibus
-						et, pharetra in dolor. Sed iaculis posuere diam ut
-						cursus.{" "}
-						<em>
-							Morbi commodo sodales nisi id sodales. Proin
-							consectetur, nisi id commodo imperdiet, metus nunc
-							consequat lectus, id bibendum diam velit et dui.
-						</em>{" "}
-						Proin massa magna, vulputate nec bibendum nec, posuere
-						nec lacus.{" "}
-						<small>
-							Aliquam mi erat, aliquam vel luctus eu, pharetra
-							quis elit. Nulla euismod ultrices massa, et feugiat
-							ipsum consequat eu.
-						</small>
+						Welcome to TrixMC, where we offer an unforgettable
+						Minecraft gaming experience. Our network features a
+						variety of gamemodes, such as SMPs, PvP, creative
+						building, and survival economy servers, and we support
+						both Java and Bedrock editions. We even welcome players
+						with cracked clients!
+					</p>
+					<p>
+						Our network is always up-to-date, and we have a team of
+						experienced moderators and developers who work
+						tirelessly to ensure everything runs smoothly. We're
+						constantly improving and adding new features to make the
+						best possible experience for our players.
+						<br />
+						<br />
+						<a href="/about">
+							<button className="btn btn-primary">
+								Read more
+							</button>
+						</a>
 					</p>
 				</div>
 			</div>
