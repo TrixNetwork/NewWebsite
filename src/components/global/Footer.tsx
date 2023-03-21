@@ -14,14 +14,24 @@ export default function Footer() {
 					<Col md={8}>
 						<h2>About us</h2>
 						<p>
-							Donec id elit non mi porta gravida at eget metus.
-							Fusce dapibus, tellus ac cursus commodo, tortor
-							mauris condimentum nibh, ut fermentum massa justo
-							sit amet risus. Etiam porta sem malesuada magna
-							mollis euismod. Donec sed odio dui.
+							Welcome to TrixMC, where we offer an unforgettable
+							Minecraft gaming experience. Our network features a
+							variety of gamemodes, such as SMPs, PvP, creative
+							building, and survival economy servers, and we
+							support both Java and Bedrock editions. We even
+							welcome players with cracked clients!{" "}
 						</p>
 						<p>
-							<Button>Learn More</Button>
+							Our network is always up-to-date, and we have a team
+							of experienced moderators and developers who work
+							tirelessly to ensure everything runs smoothly. We're
+							constantly improving and adding new features to make
+							the best possible experience for our players.
+						</p>
+						<p>
+							<a href="/about">
+								<Button>Learn More</Button>
+							</a>
 						</p>
 					</Col>
 					<Col md={4}>
