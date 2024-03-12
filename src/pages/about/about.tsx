@@ -43,7 +43,7 @@ export default function About() {
 							</abbr>
 						</strong>
 						, so everyone can join in on the fun. Our compatibility
-						with versions <strong>1.8 to 1.19.3</strong> of
+						with versions <strong>1.8 to 1.20.4</strong> of
 						Minecraft makes TrixMC the perfect destination for
 						Minecraft enthusiasts of all ages.
 					</p>
@@ -77,7 +77,7 @@ export default function About() {
 							<li>Unique gamemodes</li>
 							<li>Safe game environment</li>
 							<li>Support for both Bedrock and Java</li>
-							<li>Support for versions from 1.8 to 1.19.3</li>
+							<li>Support for versions from 1.8 to 1.20.4</li>
 							<li>Best in class trained moderators</li>
 							<li>Experienced developers</li>
 						</ul>

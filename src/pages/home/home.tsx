@@ -7,7 +7,7 @@ export default function Home() {
 		<div id="home">
 			<Hero />
 			<WhoAreWe />
-			<Gallery />
+			{/* <Gallery /> */}
 		</div>
 	);
 }

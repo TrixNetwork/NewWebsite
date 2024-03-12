@@ -7,11 +7,11 @@ import { useLocation } from "react-router-dom";
 
 export default function NavBar() {
 	const handleCopy = () => {
-		navigator.clipboard.writeText("play.trix.tk");
+		navigator.clipboard.writeText("play.trix.pp.ua");
 		const button = document.getElementById("copy-ip") as HTMLElement;
 		button.innerHTML = "Copied!";
 		setTimeout(() => {
-			button.innerHTML = "play.trix.tk";
+			button.innerHTML = "play.trix.pp.ua";
 		}, 2000);
 	};
 	const currentLocation = useLocation().pathname;
@@ -47,7 +47,10 @@ export default function NavBar() {
 								Derpitcraft
 							</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link href="https://trix.tk/docs" target="_blank">
+						<Nav.Link
+							href="https://trix.pp.ua/docs"
+							target="_blank"
+						>
 							Documentation{"  "}
 							<img
 								src="/img/external-link.png"
@@ -63,7 +66,7 @@ export default function NavBar() {
 							onClick={handleCopy}
 							className="ip-button"
 						>
-							play.trix.tk
+							play.trix.pp.ua
 						</Button>
 					</Nav>
 				</Navbar.Collapse>
