@@ -1,5 +1,6 @@
 {
   "name": "trixmc",
+  "homepage": "https://TrixNetwork.github.io/NewWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
