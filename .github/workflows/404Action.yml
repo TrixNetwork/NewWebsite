@@ -1,0 +1,15 @@
+name: Generate a new 404 html
+
+on:
+  push:
+    branches: [ "gh-pages" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Copy and Paste Index.html
+      run: cp index.html 404.html
