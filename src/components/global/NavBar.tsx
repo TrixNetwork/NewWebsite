@@ -48,8 +48,9 @@ export default function NavBar() {
 							</NavDropdown.Item>
 						</NavDropdown>
 						<Nav.Link
-							href="https://trix.pp.ua/docs"
+							href="https://docs.trix.pp.ua"
 							target="_blank"
+							rel="noreferrer"
 						>
 							Documentation{"  "}
 							<img
